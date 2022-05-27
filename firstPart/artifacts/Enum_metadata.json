@@ -1,0 +1,105 @@
+{
+	"compiler": {
+		"version": "0.8.14+commit.80d49f37"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "cancel",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "enum Status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "reset",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum Status",
+						"name": "_status",
+						"type": "uint8"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "status",
+				"outputs": [
+					{
+						"internalType": "enum Status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity-study-demo/firstPart/EnumImport.sol": "Enum"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity-study-demo/firstPart/EnumDeclaration.sol": {
+			"keccak256": "0x148cb386e2bba4a3a0d09d18225ddfe9f9d878143efd9e8aa437373d998bad84",
+			"urls": [
+				"bzz-raw://089762ae596bdcde809a029eeb721b5f037b1d6408495dc2d8dc4e72d340a1d3",
+				"dweb:/ipfs/QmRpqmy8VE3wKWNWtihNi2TRXeaKomYfT8d6jBx4RfCWk1"
+			]
+		},
+		"solidity-study-demo/firstPart/EnumImport.sol": {
+			"keccak256": "0xdbf22dfa85a9f6534dfa8a7fe60d0e64f32340d67f0aa198e729ea226d8230e0",
+			"urls": [
+				"bzz-raw://bcdea5722facb17c7573f4b66367a89560802c14d4748d01f5820a50c1e561ff",
+				"dweb:/ipfs/QmPjqAvRn2QQW5aeZjYgA95NHg3F9Jtzkt27pYD8GjFuL4"
+			]
+		}
+	},
+	"version": 1
+}

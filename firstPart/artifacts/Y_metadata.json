@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.14+commit.80d49f37"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_text",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "text",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity-study-demo/firstPart/Constructors.sol": "Y"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity-study-demo/firstPart/Constructors.sol": {
+			"keccak256": "0xe03d11aece28a15d60df05e93062ac25494642bc9b4ff876568efecb0caca247",
+			"urls": [
+				"bzz-raw://31625c6cf6ae42ac476eb1e4b14a6f8082dcd14a78bf040d1ff1fe337d3e2172",
+				"dweb:/ipfs/QmePCtSw21PBG35wsbKkdyD8ZWVYi1tAbnGmp2tutM3B1k"
+			]
+		}
+	},
+	"version": 1
+}
