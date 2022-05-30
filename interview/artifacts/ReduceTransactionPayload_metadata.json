@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.14+commit.80d49f37"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "param1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "param2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "param3",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "param4",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "param5",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "param6",
+						"type": "uint256"
+					}
+				],
+				"name": "M",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity-study-demo/interview/ReduceTransactionPayload.sol": "ReduceTransactionPayload"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity-study-demo/interview/ReduceTransactionPayload.sol": {
+			"keccak256": "0x49b71350756eefe88420208372700d8f907741de59224e35982be21897336a1e",
+			"urls": [
+				"bzz-raw://f9ff48cc01dfbedd6c2c5df96c9050724d5f56e83a5fc714aa5de36154079e02",
+				"dweb:/ipfs/QmP6aRhir8iUJPrDQn5e5gmTjj8HtRkRFjmZuyM4Vtb3fg"
+			]
+		}
+	},
+	"version": 1
+}
