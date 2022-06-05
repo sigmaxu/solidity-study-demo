@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.8.14+commit.80d49f37"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_nftId",
+						"type": "uint256"
+					}
+				],
+				"name": "transferFrom",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity-study-demo/secondPart/DutchAuction.sol": "IERC721"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity-study-demo/secondPart/DutchAuction.sol": {
+			"keccak256": "0x3adfb452051e40ae719b8891920eaf28c3f035fffc9f65b14e8fd50546e54602",
+			"urls": [
+				"bzz-raw://d31d34c4e1b7b8914d2426a83fbed3ef24c5e011acd939960fb2a64fcf77da11",
+				"dweb:/ipfs/QmWeVQpBbA6vrnBYGmXwjfyPUvEnh6NiJwShhCVKnVJFKd"
+			]
+		}
+	},
+	"version": 1
+}
