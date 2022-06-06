@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.14+commit.80d49f37"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "token0",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "token1",
+						"type": "address"
+					}
+				],
+				"name": "getPair",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity-study-demo/ForthPart/TestUniswapLiquidity.sol": "IUniswapV2Factory"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity-study-demo/ForthPart/TestUniswapLiquidity.sol": {
+			"keccak256": "0x8f85adbbc1be35a02c79f2657af1560ab42386d8606b8ed71b902f17d2824546",
+			"urls": [
+				"bzz-raw://d9017d92e95c3db15288cf3b3351dbc17886fe2403ab48d1c2b1ef30ea1b1249",
+				"dweb:/ipfs/QmQayqpgCNEzPfwc3jzjwv1XvMJWDKUr8H764yk2qZLu9R"
+			]
+		}
+	},
+	"version": 1
+}
