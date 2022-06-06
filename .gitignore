@@ -48,7 +48,7 @@ typings/
 # TypeScript cache
 *.tsbuildinfo
 
-artifacts
+*/artifacts
 
 # Optional npm cache directory
 .npm
